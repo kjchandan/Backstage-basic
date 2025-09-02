@@ -6,7 +6,7 @@ backend:
   # Must be publicly reachable (not localhost)
   baseUrl: https://backstage-basic.onrender.com
   listen:
-    port: 7007
+    port: ${PORT}
     host: 0.0.0.0
  
   database:
